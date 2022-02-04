@@ -1,0 +1,91 @@
+.body {
+    display: block;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+img {
+    height: auto;
+    width: auto;
+    max-width: 150px;
+    max-height: 40px;
+}
+
+.login-form {
+    width: 340px;
+    margin: auto;
+}
+
+.login-form-header {
+    margin-bottom: 15px;
+    text-align: center;
+    background: transparent;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 350;
+    letter-spacing: -0.5px;
+}
+
+.login-form-body {
+    display: block;
+    margin-top: 0;
+    padding: 20px;
+    font-size: 14px;
+    background-color: #f6f8fa;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 7px;
+    font-weight: 400;
+    text-align: left;
+}
+
+.input-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    width: 96%;
+}
+
+.form-control {
+    padding: 5px;
+    font-size: 14px;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+}
+
+.btn-block {
+    text-align: center;
+    display: block;
+    width: 100%;
+}
+
+.btn-primary {
+    background-color: dodgerblue;
+    margin-top: 20px;
+    border: 1px solid #b5b5b5;
+    border-radius: 5px;
+}
+
+.btn {
+    position: relative;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.label-link {
+    float: right;
+    margin-top: 2px;
+    font-size: 12px;
+}
+
+div {
+    display: block;
+}

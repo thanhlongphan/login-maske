@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login in to HaegerTime</title>
+    <link rel="icon" type="image/x-icon" href="../Image/haeger-icon.png">
+    <link rel="stylesheet" href="../CSS/login_maske.css" type="">
+    <script defer src="../JS/login_maske.js"></script>
+</head>
+<body>
+<div class="header">
+    <div class="left">
+        <img class="logo" src="../Image/haeger-logo.png" alt="haeger-logo">
+    </div>
+    <div class="action-buttons">
+
+    </div>
+</div>
+
+<main>
+    <div class="login-form">
+        <div class="login-form-header">
+            <h1>Login in to HaegerTime</h1>
+        </div>
+        <div class="login-form-body">
+            <form id="auth-form" accept-charset="UTF-8" method="post">
+                <label for="login_field">Usename or email address</label>
+                <input type="text" id="login_field" class="input-block form-control" name="username">
+                <label for="password">Password</label>
+                <input type="password" id="password" class="input-block form-control" name="password">
+                <input id="login-button" type="submit" value="Sign in" class="btn btn-block btn-primary" onclick="validate()">
+                <a class="label-link" href="password_reset.html">Forgot password?</a>
+            </form>
+        </div>
+    </div>
+</main>
+</body>
+</html>

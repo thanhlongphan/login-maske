@@ -1,0 +1,7 @@
+css selectors
+
+id -> class -> selectors
+if same priority then what comes last, win
+
+css font stack / google fonts
+
